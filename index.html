@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Portfolio</title>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.1/css/all.css" integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ" crossorigin="anonymous">
+    <link href="style.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="plugins/animate.css">
+    <link rel="stylesheet" href="plugins/morphext.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <!--    <link rel="stylesheet" href="plugins/normalize.css">-->
+    <link href="https://unpkg.com/ionicons@4.0.0/dist/css/ionicons.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:300,400,500,800,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lora:400,700,700i" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+</head>
+
+<body>
+    <div class="nav" id="nav-slide">
+        <div class="link"><a id="home" href="#home"><b>Home</b></a></div>
+        <div class="link"><a id="about" href="#">About Me</a></div>
+        <div class="link"><a id="work" href="#">My Work</a></div>
+        <div class="link"><a id="contact" href="#">Contact Me</a></div>
+    </div>
+
+    <div id="burger-slide" class="burger-wrap menu">
+        <div class="burger">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+        </div>
+    </div>
+
+
+
+    <!--   main   -->
+
+    <div id="home-section" class="container header">
+        <div class="hero-text">
+            <div class="p1">
+                <p>Hello, I am</p>
+            </div>
+            <div class="name">
+                <h1>RIMA</h1>
+            </div>
+            <div class="p2">
+                <p>AND I WANT TO</p>
+            </div>
+            <div class="animation"><span id="js-rotating">CHANGE MY CAREER, BE A PROFESSIONAL WEB DEVELOPER, GET A JOB!</span></div>
+        </div>
+    </div>
+
+    <div id="easteregg">
+        <a class="icon-wrap" href="#">
+            <ion-icon name="close"></ion-icon>
+        </a>
+        <span>This website is responsive! <br> Go ahead and try it!</span>
+    </div>
+
+    <div id="easteregg2">
+        <a class="icon-wrap" href="#">
+            <ion-icon name="close"></ion-icon>
+        </a>
+        <span>Yes! You did it!</span>
+    </div>
+
+
+    <!--    about -->
+
+    <div class="container wrap">
+        <div class="row">
+            <div class="col-lg-4 blue" id="about-me">
+                <div class="photo">
+                    <img src="images/profilepic.jpg">
+                </div>
+            </div>
+            <div class="col-lg-8 blue">
+                <div class="about-text"><span>Hi! I am Rima. I am looking for an entry level position in Front-end web development. I am self-taught programmer and I have a knowledge of HTML, CSS and JavaScript. Without practice, knowledge is wasted so i completed a project from scratch  (a website that you can find below). I am highly motivated and willing to work alongside other talented IT professionals. </span></div>
+            </div>
+        </div>
+    </div>
+
+    <!--    work  -->
+    <div class="container">
+
+        <div class="row skills-wrap">
+            <div class="col-lg-6 descr-wrap">
+                <div class="skills"> My main school was Udemy: The Web Developer Bootcamp by Colt Steele and  Jonas Schmedtmann's Build Responsive Real World Websites with HTML5 and CSS3. These courses gave me skills like <span class="skills-strong">HTML, CSS, JavaScript, jQuery, Bootstrap, node.js.</span></div>
+            </div>
+            <div class="col-lg-6 descr-wrap">
+                <div class="skills">Currently learning from The Complete JavaScript Course 2019: Build Real Projects and The Advanced Web Developer Bootcamp.</div>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container">
+        <div class="row blue" id="my-work">
+            <div class="col-lg-4">
+                <div class="title"><span>My first website</span></div>
+                <div class="button">
+                    <a href="https://mighty-peak-26686.herokuapp.com/">Open website</a>
+                </div>
+                <div class="work-text"><span>It's a website for a nonexistent hair salon. I created it with HTML5, CSS3, node.js, express, jquery and Bootstrap framework.</span></div>
+            </div>
+            <div class="col-lg-8 work-img">
+                <a href="https://mighty-peak-26686.herokuapp.com/" target="_blank">
+                    <img src="images/salon.jpg"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row blue">
+            <div class="col-lg-4 ">
+                <div class="adjust-content">
+                    <div class="title"><span>My First React JS App</span></div>
+                    <div class="work-text"><span>My favorite video game "League of Legends" character name guessing game.</a></span></div>
+                </div>
+            </div>
+            <div class="col-lg-8 work-img">
+                <a href="https://salty-caverns-29854.herokuapp.com/"><img src="./images/lol.jpg"></a>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row blue">
+            <div class="col-lg-4 ">
+                <div class="adjust-content">
+                    <div class="title"><span>My CV</span></div>
+                    <div class="work-text"><span><a target="_blank" href="./images/Resume.pdf">Open as PDF</a></span></div>
+                </div>
+            </div>
+            <div class="col-lg-8 work-img">
+                <a href="./images/Resume.pdf"><img src="./images/resume.jpg"></a>
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row blue">
+            <div class="col-lg-4 ">
+                <div class="adjust-content">
+                    <div class="title"><span>My GITHUB</span></div>
+                </div>
+            </div>
+            <div class="col-lg-8 work-img">
+                <a href="https://github.com/weevi/"><img src="./images/github.png"></a>
+            </div>
+        </div>
+    </div>
+
+    <!--    contact form   -->
+
+
+    <div class="container">
+        <div class="row blue" id="my-contact">
+            <div class="col-lg-4 ">
+                <div class="adjust-content">
+                    <div class="title"><span>Contact Me</span></div>
+                </div>
+            </div>
+            <div class="col-lg-8">
+                <div class="icons">
+                    <a href="https://www.linkedin.com/in/rima-paskeviciute-532aa7130/">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                    <a href="https://github.com/weevi">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+    <script src="plugins/morphext.min.js"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha384-smHYKdLADwkXOn1EmN1qk/HfnUcbVRZyYmZ4qpPea6sjB/pTJ0euyQp0Mk8ck+5T" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
+</body>
+
+</html>
